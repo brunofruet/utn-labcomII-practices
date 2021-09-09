@@ -1,4 +1,4 @@
-Laboratorio de Computacion II - Practicas
+# Laboratorio de Computacion II - Practicas
 Ejercicios de clase desarrollados con:
 * HTML
 * CSS
