@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+&nbsp;
+<body>
+    <h1>Formulario de Registro en BrunoTUP</h1>
+    <fieldset>
+        &nbsp;
+        <legend>Informacion personal</legend>
+        <label for="text">Nombre:  </label>
+   <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
+   <label for="text">Apellido:  </label>
+   <input type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido">
+   <label for="date">Fecha de nacimiento: </label>
+   <input type="date" name="nacimiento" id="nacimiento"placeholder="Seleccione Fecha de Nac">
+   <br>
+   <br>
+   &nbsp;
+   <label for="text">Direccion:  </label>
+   <input type="text" id="Direccion" name="Direccion" placeholder="Ingrese Direccion">
+   <label for="text">Localidad:  </label>
+   <input type="text" id="localidad" name="localidad" placeholder="Ingrese Localidad">
+   <br> 
+   <br>
+   &nbsp;
+   <label for="text">Estudiante: </label>
+   <input type="text" readonly placeholder="SI" size="3">
+   <br>
+   <br>
+   &nbsp;
+   <label for="text">Email:  </label>
+   <input type="email" id="email" name="email" placeholder="Ingrese Email">
+   <br>
+   <br>
+   &nbsp;
+   <label for="text">Edad:  </label>
+   <input type="number" id="edad" name="edad" value="18" size="10" maxlength="2" placeholder="Ingrese su Edad" >
+   <br>
+   <br>
+   &nbsp;
+   <label for="seleccionable">Nacionalidad: </label>
+   <select name="seleccionable" id="seleccionable">
+        <option value=""> **Seleccione** </option>
+        <option value="Argentino">Argentino</option>
+        <option value="Uruguayo">Uruguayo</option>
+        <option value="Chileno">Chileno</option>
+        <option value="Brasilero">Brasilero</option>
+    </select>
+    <br>
+    <br>
+    &nbsp;
+    <label for="seleccionable">Condicion Laboral: </label>
+    <select name="seleccionable" id="seleccionable">
+         <option value=""> **Seleccione** </option>
+         <option value="Desempleado">Desempleado</option>
+         <option value="Busqueda Laboral">Busqueda Laboral</option>
+         <option value="Trabajo part-time">Trabajo Part-Time</option>
+         <option value="Trabajo full-time">Trabajo Full-Time</option>
+     </select>
+</fieldset>
+<br>
+<hr>
+<br>
+    <fieldset>
+        <legend>Gustos Personales</legend>
+   &nbsp;
+   <label for="text">Banda Musical preferida:  </label>
+   <input type="text" id="banda" name="banda" placeholder="Ej: La Renga">
+   <br>
+   <br>
+   &nbsp;
+   <label for="seleccionable">Comida favorita: </label>
+   <select name="seleccionable" id="seleccionable">
+        <option value=""> **Seleccione** </option>
+        <option value="Pastas">Pastas</option>
+        <option value="Asado">Asado</option>
+        <option value="Sushi">Sushi</option>
+        <option value="Milanesas">Milanesas</option>
+        <option value="Otra">Otra</option>
+    </select>      
+
+    </fieldset>
+    <br>
+    &nbsp;
+    <label for="text">Recordar Datos</label>
+    <input type="checkbox" name="RecuerdaDatos" id="RecuerdaDatos">
+    <br>
+    <br>
+    &nbsp;
+    <input type="submit" value="Enviar">
+</body>
+</html>
