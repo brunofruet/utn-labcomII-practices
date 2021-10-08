@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245)
+}
+
+h1 {
+    font-size: 24 px;
+    color: #242424;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 20 px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul {
+    margin-left: 100px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    width: 40%;
+    list-style-type: none;
+}
+
+li {
+    font-size: 18px;
+    font-family: monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+li:hover a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.GreenList {
+    color: green;
+}
+
+li a {
+    color: orange;
+}
